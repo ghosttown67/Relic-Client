@@ -37,8 +37,8 @@ Join the community for support, updates, and builds: **https://discord.gg/JruewP
 - **HUD** — Configurable client information overlay.
 
 ### Base Hunting
-- **ChunkFinder** — Highlights chunk anomalies left by player bases.
-- **OreSim** — Simulates ore generation from a known seed (X-ray on crack).
+- **ChunkFinder** — Highlights chunk anomalies left by player activity.
+- **OreSim** — Simulates ore generation from a known seed.
 - **BlockAlert** — Notifies when selected blocks are detected nearby.
 - **AmethystESP** — Flags amethyst buds from block-update packets.
 - **EndermanBlockESP** — Highlights endermen carrying selected blocks.
@@ -65,14 +65,14 @@ Join the community for support, updates, and builds: **https://discord.gg/JruewP
 - **ProximityAlert** — Alerts when a new player enters render distance.
 - **RainNotifier** — Notifies when it starts or stops raining.
 - **KillMessage** — Sends a message when you kill someone.
-- **DiscordRPC** — Shows Relic Client on your Discord profile (Rich Presence).
+- **DiscordRPC** — Shows Relic Client on your Discord profile.
 
 ### Troll
-- **FakeScoreboard** — Spoofs the DonutSMP sidebar client-side.
+- **FakeScoreboard** — Spoofs the DonutSMP sidebar client side.
 
 ### Account Manager
 - Manage multiple Minecraft accounts and swap sessions in-game via the **Accounts** button on the
-  Multiplayer screen. Supports Microsoft login and session-based alt accounts.
+  Multiplayer screen. Supports Microsoft login and session-based accounts.
 
 ## Commands
 
