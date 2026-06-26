@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "relic-client",
+	"version": "${version}",
+	"name": "Relic Client",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/relic-client/icon.png",
+	"environment": "*",
+	"accessWidener": "relic-client.accesswidener",
+	"entrypoints": {
+		"main": [
+			"relic.client.RelicClient"
+		],
+		"client": [
+			"relic.client.client.RelicClientClient"
+		]
+	},
+	"mixins": [
+		"relic-client.mixins.json",
+		{
+			"config": "relic-client.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
